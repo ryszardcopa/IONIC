@@ -1,42 +1,84 @@
 <ion-app>
   <ion-header>
-    <ion-toolbar>
-<ion-row> 
-  <ion-column size="10"><img src="assets/person.jpg" alt=""><ion-title>  
-  </ion-title>  
-</ion-column>
-  <ion-column size="1">  <ion-icon name="search-outline" ></ion-icon></ion-column>
-  <ion-column size="1" class="ion-align-items-end"> 
-    <ion-icon name="apps-outline"></ion-icon>
-  </ion-column>
-</ion-row>
-      
-     
+    <ion-toolbar color="primary">
+      <ion-grid>
+        <ion-row>
+
+          <ion-column size="10" class="ion-padding-end" class="ion-margin-end">
+            <div>
+              <img src="assets/person2.svg" alt="" width="20px">
+              Name Surname
+            </div>
+          </ion-column>
+  
+          <ion-column size="1" class="ion-margin-start ion-padding-start">
+            <div>
+              <ion-icon name="search-outline" class="ion-text-right"></ion-icon>
+            </div>
+          </ion-column>
+  
+          <ion-column size="1">
+            <div>
+              <ion-icon name="apps-outline"></ion-icon>
+            </div>
+          </ion-column>
+  
+  
+        </ion-row>
+      </ion-grid>
+
+
+
     </ion-toolbar>
   </ion-header>
 
-  <ion-content >
+  <ion-content>
     <ion-card>
-      <ion-card-header style="background-color:blue; ">
-        <ion-card-title style="color: white;">Gilbert</ion-card-title>
-        <ion-card-subtitle style="color: white;">Tuesday 2020</ion-card-subtitle>
+      <ion-card-header>
+        <ion-card-title>Gilbert</ion-card-title>
+        <ion-card-subtitle >Tuesday 2020</ion-card-subtitle>
       </ion-card-header>
-    
-      <ion-card-content>
-      <img src="assets/City.jpg" alt="">
-        Keep close to Nature's heart... and break clear away, once in awhile,
-        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+
+      <ion-card-content class="ion-no-padding">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore accusantium minima expedita ipsam, vitae deserunt animi! Magnam repellat incidunt officia, eveniet possimus laboriosam quidem molestiae porro totam enim ad cum?
+          Eveniet quod ratione ab aliquam totam tenetur rem dicta labore veniam vero itaque</p>
+        <img src="assets/City.jpg" alt="">
+
+        <ion-button>
+          <ion-icon name="add-outline"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon name="heart-dislike-outline"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon name="heart-dislike-circle-outline"></ion-icon>
+        </ion-button>
       </ion-card-content>
     </ion-card>
-    
 
-    
+
+
 
   </ion-content>
 
   <ion-footer>
     <ion-toolbar>
-      <ion-title>Footer</ion-title>
+      <ion-buttons slot="secondary"></ion-buttons>
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
     </ion-toolbar>
   </ion-footer>
 
